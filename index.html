@@ -35,7 +35,20 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script type="text/javascript">
+    window.onload = function(){
+      setInterval("toggleSound()",100);
+    }
 
+    function toggleSound() {
+      var music = document.getElementById("audio");//获取ID
+
+      if (music.paused) { //判读是否播放
+        music.paused=false;
+        music.play(); //没有就播放
+      }
+    }
+  </script>
 
 </body>
 </html>
