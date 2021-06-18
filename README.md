@@ -15,6 +15,9 @@
 > 关于我
 >> 工作了六七年的大龄程序员，感觉还是那么菜，哈哈哈
 
+## 联系方式：
+<img src="./images/card.jpg" style="width: 30%;">
+
 > to be continued ...
 
 
