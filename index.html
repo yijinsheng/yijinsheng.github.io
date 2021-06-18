@@ -15,7 +15,6 @@
   <div>
     <audio id="audio" controls="control"  autoplay="autoplay"  hidden>
       <source id="bg2" src="./music/嘉宾.mp3">
-
       <source id="bg1" src="./music/bg.mp3">
 
     </audio>
@@ -39,6 +38,17 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script type="text/javascript">
+    var seed=Math.ceil(Math.random()*10);     // 获取从 1 到 10 的随机整数，取 0 的概率极小。
+    if(seed%2==0){
+      document.getElementById("bg1").remove();
+    }
+    else{
+      document.getElementById("bg2").remove();
+
+    }
+
+
+
     window.onload = function(){
       setInterval("toggleSound()",100);
     }
