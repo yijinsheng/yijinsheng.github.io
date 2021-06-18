@@ -12,12 +12,8 @@
 </head>
 <body>
   <div id="app"></div>
-  <div>
-    <audio id="audio" controls="control"  autoplay="autoplay"  hidden>
-      <source id="bg2" src="./music/嘉宾.mp3">
-      <source id="bg1" src="./music/bg.mp3">
+  <div id="audioBox">
 
-    </audio>
   </div>
   <script>
     window.$docsify = {
@@ -38,29 +34,23 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script type="text/javascript">
-    var seed=Math.ceil(Math.random()*10);     // 获取从 1 到 10 的随机整数，取 0 的概率极小。
-    if(seed%2==0){
-      document.getElementById("bg1").remove();
-    }
-    else{
-      document.getElementById("bg2").remove();
-
-    }
-
-
-
-    window.onload = function(){
-      setInterval("toggleSound()",100);
-    }
-
-    function toggleSound() {
-      var music = document.getElementById("audio");//获取ID
-
-      if (music.paused) { //判读是否播放
-        music.paused=false;
-        music.play(); //没有就播放
+      window.onload = function(){
+          var arr = ["./music/嘉宾.mp3","./music/bg.mp3"];               //把需要播放的歌曲从后往前排，这里已添加两首音乐，可继续添加多个音乐
+          var myAudio = new Audio();
+          myAudio.preload = true;
+          myAudio.controls = true;
+          myAudio.src = arr.pop();         //每次读数组最后一个元素
+          myAudio.addEventListener('ended', playEndedHandler, false);
+          myAudio.play();
+          document.getElementById("audioBox").appendChild(myAudio);
+          myAudio.loop = false;//禁止循环，否则无法触发ended事件
+          function playEndedHandler(){
+              myAudio.src = arr.pop();
+              myAudio.play();
+              console.log(arr.length);
+              !arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定
+          }
       }
-    }
   </script>
 
 </body>
