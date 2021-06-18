@@ -2,7 +2,8 @@
     - [人机对话](work/chatbot/人机对话.md)
     
 - 生活
-    - [想到再写](life/helloWorld.md)
+    - 2021-06
+        - [日记](life/2021-06/diary.md)
 
 - 喜欢的东西
     - [一些文字](words/excerpt.md)
