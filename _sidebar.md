@@ -16,6 +16,10 @@
 - 喜欢的东西
     - [一些文字](words/excerpt.md)
     - [一些图片](words/images.md)
+    - [上大号的读物](words/上大号的读物.md)
+    - [上大号的读物2](words/上大号的读物2.md)
+
+
    
         
 
