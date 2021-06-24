@@ -123,9 +123,7 @@ p(”不一样“|"我们")>p(”的爱“|"我们")>p(”相爱吧“|"我们")
 
 好，到这里讲解了n-gram的基本内容了。
 
-转载于 [自然语言处理中N-Gram模型介绍
-
-](https://zhuanlan.zhihu.com/p/32829048)
+转载于 [自然语言处理中N-Gram模型介绍](https://zhuanlan.zhihu.com/p/32829048)
 
 
 
