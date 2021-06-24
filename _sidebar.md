@@ -1,5 +1,7 @@
 - 工作
     - [人机对话](work/chatbot/人机对话.md)
+    - nlp
+      - [n-gram](work/nlp/n-gram.md)
     - 前端
         - [前端框架](work/前端/前端框架.md)
     
