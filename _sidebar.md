@@ -2,7 +2,7 @@
     - [人机对话](work/chatbot/人机对话.md)
     - nlp
       - [n-gram](work/nlp/n-gram.md)
-      - [从Word Embedding](work/nlp/从Word Embedding到Bert.md)
+      - [从Word Embedding到Bert](work/nlp/w2v-bert.md)
     - 前端
         - [前端框架](work/前端/前端框架.md)
     
