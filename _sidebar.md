@@ -5,6 +5,8 @@
       - [从Word Embedding到Bert](work/nlp/w2v-bert.md)
     - 前端
         - [前端框架](work/前端/前端框架.md)
+    - 笔记
+        - [redis集群配置](work/笔记/redis集群部署.md)
     
 - 生活
     - 2021-06
