@@ -1,6 +1,5 @@
 - 工作
     - [人机对话](work/chatbot/人机对话.md)
-    - [yanjiang](work/chatbot/yanjiang.md)
 
     - nlp
       - [n-gram](work/nlp/n-gram.md)
@@ -12,7 +11,7 @@
     - java
         - [subList的坑](work/java/subList的坑.md)
         - [jstack使用记录](work/java/jstack使用记录.md)
-
+    
     
 - 生活
     - 2021-06
@@ -56,22 +55,11 @@
      - 2021-08
         - [10](life/2021-08/10.md)
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - 喜欢的东西
+    - food
+        - [酱汁蘸料](food/调料.md)
     - [一些文字](words/excerpt.md)
     - [一些图片](words/images.md)
     - 一些视频
