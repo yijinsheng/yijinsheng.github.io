@@ -73,7 +73,7 @@ LSTM的全称是Long Short-Term Memory，它是RNN（Recurrent Neural Network）
 4. 当前分两个方向，在做好 词，句子/篇章 级别的情感分析的基础上，研究目标级别的情感倾向分析
 
 ## 6、方案设计
-![](./images/nlp/sentiment/g.jpeg)
+![](./images/nlp/sentiment/g.jpg)
 
  
 ### 模型计算
