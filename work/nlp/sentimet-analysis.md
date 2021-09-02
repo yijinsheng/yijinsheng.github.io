@@ -23,10 +23,9 @@
 多维度表示法也有多种，如 Valence-Arousal-Dominance（VAD）模型，Evaluation-Potency-Activity（EPA）模型等。Valence 和 Evaluation 表示好坏，arousal 和 activity 表示人的唤起度，dominance 和 potency 表示控制力。
 ![](../../images/nlp/sentiment/c.jpg)
 用连续多维表示方法的情感词典例子如：
-```
-VAD 模型在[1,9]取值范围下：车祸可表示为 (2.05, 6.26, 3.76)
+```VAD 模型在[1,9]取值范围下：车祸可表示为 (2.05, 6.26, 3.76)```
 
-```
+
 #### 参考
 - [情感词下载地址](https://mlln.cn/2018/10/11/%E4%B8%AD%E6%96%87%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E8%AF%AD%E6%96%99%E5%BA%93%E5%A4%A7%E5%85%A8-%E5%B8%A6%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/)
 - [基于情感词典的情绪分析](https://www.zybuluo.com/evilking/note/1012623)
@@ -85,9 +84,10 @@ LSTM的全称是Long Short-Term Memory，它是RNN（Recurrent Neural Network）
  2. 对模型的输出阈值不高或者判定不准的语料进行清洗之后进行人工标注，用以重新训练模型
  
 ### 主要难点和待解决的问题
+
  1. 模型的选型，调优，代码调试
- 2. 数据的获取
- 3. 模型的效果评估和提升
+ 2. 数据的获取，优质的数据是模型好坏的关键
+ 3. 模型的效果评估和提升，能够正确的评估模型的好坏，才能有方向的去提升模型的效果
 
 
 
