@@ -10,34 +10,34 @@ N-Gram是一种基于统计语言模型的算法。它的基本思想是将文�
 ## 二、n-gram模型用于评估语句是否合理
 如果我们有一个由 m 个词组成的序列（或者说一个句子），我们希望算得概率 p(w1,w2,....,wm) ，根据链式规则，可得
 
-![公式](../../images/nlp/ng-gram-1.svg)
+![公式](../../images/nlp/ng-gram/ng-gram-1.svg)
 
 这个概率显然并不好算，不妨利用马尔科夫链的假设，即当前这个词仅仅跟前面几个有限的词相关，因此也就不必追溯到最开始的那个词，这样便可以大幅缩减上述算式的长度。即
 
-![公式](../../images/nlp/ng-gram-2.svg)
+![公式](../../images/nlp/ng-gram/ng-gram-2.svg)
 
 这个马尔科夫链的假设为什么好用？我想可能是在现实情况中，大家通过真实情况将n=1，2，3，....这些值都试过之后，得到的真实的效果和时间空间的开销权衡之后，发现能够使用。
 下面给出一元模型，二元模型，三元模型的定义：
 
 当 n=1, 一个一元模型（unigram model)即为 ：
 
-![公式](../../images/nlp/ng-gram-3.png)
+![公式](../../images/nlp/ng-gram/ng-gram-3.png)
 
 当 n=2, 一个二元模型（bigram model)即为 ：
 
-![公式](../../images/nlp/ng-gram-4.png)
+![公式](../../images/nlp/ng-gram/ng-gram-4.png)
 
 当 n=3, 一个三元模型（trigram model)即为
 
-![公式](../../images/nlp/ng-gram-5.png)
+![公式](../../images/nlp/ng-gram/ng-gram-5.png)
 
 然后下面的思路就很简单了，在给定的训练语料中，利用贝叶斯定理，将上述的条件概率值（因为一个句子出现的概率都转变为右边条件概率值相乘了）都统计计算出来即可。下面会给出具体例子讲解。这里先给出公式：
 
-![公式](../../images/nlp/ng-gram-6.png)
+![公式](../../images/nlp/ng-gram/ng-gram-6.png)
 
 对第一个进行解释，后面同理,如下：
 
-![公式](../../images/nlp/ng-gram-7.svg)
+![公式](../../images/nlp/ng-gram/ng-gram-7.svg)
 
 下面给出具体的例子。
 
@@ -47,21 +47,21 @@ N-Gram是一种基于统计语言模型的算法。它的基本思想是将文�
 
 假设现在有一个语料库，我们统计了下面的一些词出现的数量
 
-![公式](../../images/nlp/ng-gram-8.png)
+![公式](../../images/nlp/ng-gram/ng-gram-8.png)
 
 下面的这些概率值作为已知条件：
 
-![公式](../../images/nlp/ng-gram-9.png)
+![公式](../../images/nlp/ng-gram/ng-gram-9.png)
 ```
 p(want|<s>) = 0.25
 ```
 下面这个表给出的是基于Bigram模型进行计数之结果
 
-![公式](../../images/nlp/ng-gram-10.png)
+![公式](../../images/nlp/ng-gram/ng-gram-10.png)
 
 例如，其中第一行，第二列 表示给定前一个词是 “i” 时，当前词为“want”的情况一共出现了827次。据此，我们便可以算得相应的频率分布表如下。
 
-![公式](../../images/nlp/ng-gram-11.jpeg)
+![公式](../../images/nlp/ng-gram/ng-gram-11.jpeg)
 
 比如说，我们就以表中的p(eat|i)=0.0036这个概率值讲解，从表一得出“i”一共出现了2533次，而其后出现eat的次数一共有9次，p(eat|i)=p(eat,i)/p(i)=count(i,eat)/count(i)=9/2533 = 0.0036
 
@@ -95,7 +95,7 @@ P(s2)=P(want|<s>)P(i|want)P(english|want)P(food|english)P(</s>|food)
 
 再者，当你用输入法输入一个汉字的时候，输入法通常可以联系出一个完整的词，例如我输入一个“刘”字，通常输入法会提示我是否要输入的是“刘备”。通过上面的介绍，你应该能够很敏锐的发觉，这其实是以N-Gram模型为基础来实现的。比如下图：
 
-![公式](../../images/nlp/ng-gram-12.jpeg)
+![公式](../../images/nlp/ng-gram/ng-gram-12.jpeg)
 
 那么原理是什么呢？也就是我打入“我们”的时候，后面的“不一样”，”的爱“这些是怎么出来的，怎么排序的？
 
@@ -117,7 +117,7 @@ p(”不一样“|"我们")>p(”的爱“|"我们")>p(”相爱吧“|"我们")
 
 其中当N为特定值的时候，我们来看一下n-gram可能的总数，如下表：
 
-![公式](../../images/nlp/ng-gram-13.jpeg)
+![公式](../../images/nlp/ng-gram/ng-gram-13.jpeg)
 
 对于上图，我用一个例子来进行解释，加入目前词汇表中就只有三个单词，”我爱你“，那么bigram的总数是3^2=9个，有”我我“，我爱，我你，爱爱，爱你，爱我，你你，你我，你爱这9个,所以对应上面的表示是bigrams是20000^2=400000000,trigrams=20000^3 = 8*10e12
 

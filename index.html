@@ -12,7 +12,7 @@
 </head>
 <body>
   <div id="app"></div>
-  <div id="audioBox" style="float: right">
+<!--  <div id="audioBox" style="float: right">-->
 
   </div>
   <script>
@@ -20,8 +20,8 @@
       name: '',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
-      sidebarDisplayLevel: 2, // set sidebar display level
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 3, // set sidebar display level
 
       coverpage: true,
       onlyCover: false,
@@ -33,25 +33,82 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <script type="text/javascript">
-      window.onload = function(){
-          var arr = ["./music/嘉宾.mp3","./music/bg.mp3"];               //把需要播放的歌曲从后往前排，这里已添加两首音乐，可继续添加多个音乐
-          var myAudio = new Audio();
-          myAudio.preload = true;
-          myAudio.controls = true;
-          myAudio.src = arr.pop();         //每次读数组最后一个元素
-          myAudio.addEventListener('ended', playEndedHandler, false);
-          myAudio.play();
-          document.getElementById("audioBox").appendChild(myAudio);
-          myAudio.loop = false;//禁止循环，否则无法触发ended事件
-          function playEndedHandler(){
-              myAudio.src = arr.pop();
-              myAudio.play();
-              console.log(arr.length);
-              !arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定
-          }
-      }
-  </script>
+<!--  <script type="text/javascript">-->
+<!--      window.onload = function(){-->
+<!--          var arr = ["./music/嘉宾.mp3","./music/bg.mp3"];               //把需要播放的歌曲从后往前排，这里已添加两首音乐，可继续添加多个音乐-->
+<!--          var myAudio = new Audio();-->
+<!--          myAudio.preload = true;-->
+<!--          myAudio.controls = true;-->
+<!--          myAudio.src = arr.pop();         //每次读数组最后一个元素-->
+<!--          myAudio.addEventListener('ended', playEndedHandler, false);-->
+<!--          myAudio.play();-->
+<!--          document.getElementById("audioBox").appendChild(myAudio);-->
+<!--          myAudio.loop = false;//禁止循环，否则无法触发ended事件-->
+<!--          function playEndedHandler(){-->
+<!--              myAudio.src = arr.pop();-->
+<!--              myAudio.play();-->
+<!--              console.log(arr.length);-->
+<!--              !arr.length && myAudio.removeEventListener('ended',playEndedHandler,false);//只有一个元素时解除绑定-->
+<!--          }-->
+<!--      }-->
+<!--  </script>-->
 
 </body>
 </html>
+<!-- - 生活-->
+<!-- - 2021-06-->
+<!-- - [18](life/2021-06/18.md)-->
+<!-- - [19](life/2021-06/19.md)-->
+<!-- - [20](life/2021-06/20.md)-->
+<!-- - [21](life/2021-06/21.md)-->
+<!-- - [22](life/2021-06/22.md)-->
+<!-- - [23](life/2021-06/23.md)-->
+<!-- - [24](life/2021-06/24.md)-->
+<!-- - [25](life/2021-06/25.md)-->
+<!-- - [27](life/2021-06/27.md)-->
+<!-- - [28](life/2021-06/28.md)-->
+<!-- - [29](life/2021-06/29.md)-->
+<!-- - [30](life/2021-06/30.md)-->
+<!-- - 2021-07-->
+<!-- - [1](life/2021-07/1.md)-->
+<!-- - [2](life/2021-07/2.md)-->
+<!-- - [3](life/2021-07/3.md)-->
+<!-- - [4](life/2021-07/4.md)-->
+<!-- - [5](life/2021-07/5.md)-->
+<!-- - [6](life/2021-07/6.md)-->
+<!-- - [7](life/2021-07/7.md)-->
+<!-- - [8](life/2021-07/8.md)-->
+<!-- - [9](life/2021-07/9.md)-->
+<!-- - [10](life/2021-07/10.md)-->
+<!-- - [11](life/2021-07/11.md)-->
+<!-- - [12](life/2021-07/12.md)-->
+<!-- - [13](life/2021-07/13.md)-->
+<!-- - [14](life/2021-07/14.md)-->
+<!-- - [15](life/2021-07/15.md)-->
+<!-- - [16](life/2021-07/16.md)-->
+<!-- - [17](life/2021-07/17.md)-->
+<!-- - [18](life/2021-07/18.md)-->
+<!-- - [19](life/2021-07/19.md)-->
+<!-- - [20](life/2021-07/20.md)-->
+<!-- - [21](life/2021-07/21.md)-->
+<!-- - [22](life/2021-07/22.md)-->
+<!-- - [26](life/2021-07/26.md)-->
+<!-- - [28](life/2021-07/28.md)-->
+<!-- - 2021-08-->
+<!-- - [10](life/2021-08/10.md)-->
+<!-- - [11](life/2021-08/11.md)-->
+<!-- - [22](life/2021-08/22.md)-->
+
+<!--´-->
+
+
+
+<!-- - 喜欢的东西-->
+<!-- - food-->
+<!-- - [酱汁蘸料](food/调料.md)-->
+<!-- - [一些文字](words/excerpt.md)-->
+<!-- - [一些图片](words/images.md)-->
+<!-- - 一些视频-->
+<!-- - [法外狂徒](words/法外狂徒.md)-->
+<!-- - [上大号的读物](words/上大号的读物.md)-->
+<!-- - [上大号的读物2](words/上大号的读物2.md)-->
