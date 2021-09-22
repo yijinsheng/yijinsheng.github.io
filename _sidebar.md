@@ -4,6 +4,7 @@
       - [n-gram](work/nlp/n-gram.md)
       - [从Word Embedding到Bert](work/nlp/w2v-bert.md)
       - [情感分析](work/nlp/sentimet-analysis.md)
+          - [整体计划](work/nlp/整体方案计划.md)
     - 前端
         - [前端框架](work/前端/前端框架.md)
     - 笔记
