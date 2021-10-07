@@ -12,6 +12,8 @@
     - java
         - [subList的坑](work/java/subList的坑.md)
         - [jstack使用记录](work/java/jstack使用记录.md)
+- others
+   - [幼小衔接](paper/child_school.md)
     
     
 
