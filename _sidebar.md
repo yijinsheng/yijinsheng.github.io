@@ -14,6 +14,7 @@
         - [jstack使用记录](work/java/jstack使用记录.md)
 - others
    - [幼小衔接](paper/幼小衔接.md)
+   - [幼小衔接参考资料](paper/child_school.md)
     
     
 
