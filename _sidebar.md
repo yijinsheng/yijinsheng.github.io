@@ -15,6 +15,7 @@
 - others
    - [幼小衔接](paper/幼小衔接.md)
    - [幼小衔接参考资料](paper/child_school.md)
+   - [Jane Eyre After Reading](paper/Jane%20Eyre%20After%20Reading.md)
     
     
 
