@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c537b3c0-c08d-443f-a64d-54407bffd1e5" name="Default Changelist" comment="日常更新">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yijinsheng.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nlp/sentiment/show-bert-cnn-bilstm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/life/2021-12/10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper/学历案与深度学习notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/nlp/sentiment_ppt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work/nlp/sentiment_ppt.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="141">
+                <caret line="39" column="87" lean-forward="true" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sidebar.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>auto</find>
+      <find>公式</find>
+      <find>chat-bot</find>
+      <find>../../</find>
+      <find>content</find>
+      <find>专业</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>./</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/words/images.md" />
+        <option value="$PROJECT_DIR$/life/2021-06/30.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/5.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/6.md" />
+        <option value="$PROJECT_DIR$/words/video.md" />
+        <option value="$PROJECT_DIR$/words/法外狂徒.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/8.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/9.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/7.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/12.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/11.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/10.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/13.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/14.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/15.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/16.md" />
+        <option value="$PROJECT_DIR$/work/chatbot/人机对话.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/17.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/19.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/18.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/20.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/21.md" />
+        <option value="$PROJECT_DIR$/work/java/subList的坑.md" />
+        <option value="$PROJECT_DIR$/work/笔记/redis集群部署.md" />
+        <option value="$PROJECT_DIR$/work/java/jstack使用记录.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/22.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/26.md" />
+        <option value="$PROJECT_DIR$/life/2021-07/28.md" />
+        <option value="$PROJECT_DIR$/work/chatbot/yanjiang.md" />
+        <option value="$PROJECT_DIR$/life/2021-08/10.md" />
+        <option value="$PROJECT_DIR$/food/调料.md" />
+        <option value="$PROJECT_DIR$/life/2021-08/11.md" />
+        <option value="$PROJECT_DIR$/words/excerpt.md" />
+        <option value="$PROJECT_DIR$/life/2021-08/22.md" />
+        <option value="$PROJECT_DIR$/life/2021-08/27.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/work/nlp/sentimet-analysis.md" />
+        <option value="$PROJECT_DIR$/life/2021-09/13.md" />
+        <option value="$PROJECT_DIR$/work/nlp/test.md" />
+        <option value="$PROJECT_DIR$/work/nlp/整体方案计划.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/life/2021-09/26.md" />
+        <option value="$PROJECT_DIR$/life/2021-09/27.md" />
+        <option value="$PROJECT_DIR$/paper/child_school.md" />
+        <option value="$PROJECT_DIR$/paper/幼小衔接.md" />
+        <option value="$PROJECT_DIR$/life/2021-10/22.md" />
+        <option value="$PROJECT_DIR$/paper/Jane Eyre After Reading.md" />
+        <option value="$PROJECT_DIR$/paper/学历案与深度学习notes.md" />
+        <option value="$PROJECT_DIR$/_sidebar.md" />
+        <option value="$PROJECT_DIR$/life/2021-12/10.md" />
+        <option value="$PROJECT_DIR$/work/nlp/sentiment_ppt.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="life" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="life" type="462c0819:PsiDirectoryNode" />
+              <item name="2021-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yijinsheng.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yijinsheng.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/images/like" />
+      <recent name="$PROJECT_DIR$/music" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/life" />
+      <recent name="$PROJECT_DIR$/images/nlp/w2v-bert" />
+      <recent name="$PROJECT_DIR$/images/nlp/ng-gram" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/images/date" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c537b3c0-c08d-443f-a64d-54407bffd1e5" name="Default Changelist" comment="" />
+      <created>1623897361888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623897361888</updated>
+      <workItem from="1623897363119" duration="24904000" />
+      <workItem from="1624239201749" duration="34159000" />
+      <workItem from="1624528005122" duration="337000" />
+      <workItem from="1624601408584" duration="322000" />
+      <workItem from="1624612113833" duration="4606000" />
+      <workItem from="1624860200726" duration="2096000" />
+      <workItem from="1624877587648" duration="2930000" />
+      <workItem from="1624935084852" duration="5369000" />
+      <workItem from="1624961282843" duration="920000" />
+      <workItem from="1625017917479" duration="5744000" />
+      <workItem from="1625052512404" duration="1740000" />
+      <workItem from="1625107336172" duration="8201000" />
+      <workItem from="1625467742907" duration="217000" />
+      <workItem from="1625483284880" duration="1611000" />
+      <workItem from="1625646495238" duration="1146000" />
+      <workItem from="1625649290658" duration="453000" />
+      <workItem from="1625650013438" duration="496000" />
+      <workItem from="1625650770261" duration="618000" />
+      <workItem from="1625657126433" duration="239000" />
+      <workItem from="1625723026602" duration="99000" />
+      <workItem from="1625734609388" duration="4127000" />
+      <workItem from="1626059164514" duration="367000" />
+      <workItem from="1626073889154" duration="1734000" />
+      <workItem from="1626165793250" duration="4277000" />
+      <workItem from="1626507801381" duration="5853000" />
+      <workItem from="1626947873982" duration="1449000" />
+      <workItem from="1627034160732" duration="1533000" />
+      <workItem from="1627271835884" duration="2334000" />
+      <workItem from="1627562593353" duration="5451000" />
+      <workItem from="1627630618746" duration="210000" />
+      <workItem from="1628066934998" duration="476000" />
+      <workItem from="1628494901157" duration="420000" />
+      <workItem from="1628561054664" duration="4867000" />
+      <workItem from="1629180674080" duration="276000" />
+      <workItem from="1629629026385" duration="3228000" />
+      <workItem from="1630483348719" duration="2159000" />
+      <workItem from="1630551968684" duration="287000" />
+      <workItem from="1630552360617" duration="2847000" />
+      <workItem from="1630565656393" duration="3177000" />
+      <workItem from="1630571205650" duration="8852000" />
+      <workItem from="1631501828008" duration="458000" />
+      <workItem from="1631503949947" duration="177000" />
+      <workItem from="1631859494574" duration="1362000" />
+      <workItem from="1631930385608" duration="833000" />
+      <workItem from="1631949965109" duration="629000" />
+      <workItem from="1632279382677" duration="1451000" />
+      <workItem from="1632634938447" duration="466000" />
+      <workItem from="1632731542373" duration="489000" />
+      <workItem from="1633582563414" duration="3840000" />
+      <workItem from="1634646781752" duration="943000" />
+      <workItem from="1634896831166" duration="434000" />
+      <workItem from="1638007647929" duration="4881000" />
+      <workItem from="1638770304277" duration="1292000" />
+      <workItem from="1638871397202" duration="5000" />
+      <workItem from="1639029963008" duration="10581000" />
+      <workItem from="1639193804497" duration="3995000" />
+      <workItem from="1639463807516" duration="7190000" />
+      <workItem from="1639533352341" duration="247000" />
+      <workItem from="1639623312671" duration="7000" />
+      <workItem from="1639644994010" duration="713000" />
+    </task>
+    <task id="LOCAL-00083" summary="日常更新">
+      <created>1625734755310</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1625734755311</updated>
+    </task>
+    <task id="LOCAL-00084" summary="日常更新">
+      <created>1625830987152</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1625830987152</updated>
+    </task>
+    <task id="LOCAL-00085" summary="日常更新">
+      <created>1625831732076</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1625831732076</updated>
+    </task>
+    <task id="LOCAL-00086" summary="日常更新">
+      <created>1626074409813</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074409813</updated>
+    </task>
+    <task id="LOCAL-00087" summary="日常更新">
+      <created>1626074512395</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074512395</updated>
+    </task>
+    <task id="LOCAL-00088" summary="日常更新">
+      <created>1626074738966</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074738966</updated>
+    </task>
+    <task id="LOCAL-00089" summary="日常更新">
+      <created>1626074808675</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074808675</updated>
+    </task>
+    <task id="LOCAL-00090" summary="日常更新">
+      <created>1626074849169</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074849170</updated>
+    </task>
+    <task id="LOCAL-00091" summary="日常更新">
+      <created>1626075086183</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075086184</updated>
+    </task>
+    <task id="LOCAL-00092" summary="日常更新">
+      <created>1626166070466</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1626166070466</updated>
+    </task>
+    <task id="LOCAL-00093" summary="日常更新">
+      <created>1626166308816</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1626166308816</updated>
+    </task>
+    <task id="LOCAL-00094" summary="日常更新">
+      <created>1626166318064</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1626166318064</updated>
+    </task>
+    <task id="LOCAL-00095" summary="日常更新">
+      <created>1626168133584</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1626168133584</updated>
+    </task>
+    <task id="LOCAL-00096" summary="日常更新">
+      <created>1626250526866</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1626250526866</updated>
+    </task>
+    <task id="LOCAL-00097" summary="日常更新">
+      <created>1626425687663</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1626425687665</updated>
+    </task>
+    <task id="LOCAL-00098" summary="日常更新">
+      <created>1626769260186</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1626769260187</updated>
+    </task>
+    <task id="LOCAL-00099" summary="日常更新">
+      <created>1626882871913</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1626882871913</updated>
+    </task>
+    <task id="LOCAL-00100" summary="日常更新">
+      <created>1627035797290</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1627035797291</updated>
+    </task>
+    <task id="LOCAL-00101" summary="日常更新">
+      <created>1627286355946</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1627286355947</updated>
+    </task>
+    <task id="LOCAL-00102" summary="日常更新">
+      <created>1627460026176</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1627460026177</updated>
+    </task>
+    <task id="LOCAL-00103" summary="日常更新">
+      <created>1627614630454</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1627614630455</updated>
+    </task>
+    <task id="LOCAL-00104" summary="日常更新">
+      <created>1628564014039</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1628564014040</updated>
+    </task>
+    <task id="LOCAL-00105" summary="日常更新">
+      <created>1628564102373</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1628564102373</updated>
+    </task>
+    <task id="LOCAL-00106" summary="日常更新">
+      <created>1628564299522</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1628564299522</updated>
+    </task>
+    <task id="LOCAL-00107" summary="日常更新">
+      <created>1628576542361</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1628576542361</updated>
+    </task>
+    <task id="LOCAL-00108" summary="日常更新">
+      <created>1628682650067</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1628682650068</updated>
+    </task>
+    <task id="LOCAL-00109" summary="日常更新">
+      <created>1629630171223</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1629630171224</updated>
+    </task>
+    <task id="LOCAL-00110" summary="情感分析">
+      <created>1630571265659</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1630571265659</updated>
+    </task>
+    <task id="LOCAL-00111" summary="日常更新">
+      <created>1630571491642</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1630571491643</updated>
+    </task>
+    <task id="LOCAL-00112" summary="日常更新">
+      <created>1630574680340</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1630574680340</updated>
+    </task>
+    <task id="LOCAL-00113" summary="日常更新">
+      <created>1630575405136</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1630575405136</updated>
+    </task>
+    <task id="LOCAL-00114" summary="日常更新">
+      <created>1630577909151</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1630577909151</updated>
+    </task>
+    <task id="LOCAL-00115" summary="日常更新">
+      <created>1630577971381</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1630577971381</updated>
+    </task>
+    <task id="LOCAL-00116" summary="日常更新">
+      <created>1630578055573</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1630578055573</updated>
+    </task>
+    <task id="LOCAL-00117" summary="日常更新">
+      <created>1630578279056</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1630578279056</updated>
+    </task>
+    <task id="LOCAL-00118" summary="日常更新">
+      <created>1630578462894</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1630578462894</updated>
+    </task>
+    <task id="LOCAL-00119" summary="日常更新">
+      <created>1630581854770</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1630581854770</updated>
+    </task>
+    <task id="LOCAL-00120" summary="日常更新">
+      <created>1630585797899</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1630585797899</updated>
+    </task>
+    <task id="LOCAL-00121" summary="日常更新">
+      <created>1632279443256</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1632279443256</updated>
+    </task>
+    <task id="LOCAL-00122" summary="日常更新">
+      <created>1633584174681</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1633584174682</updated>
+    </task>
+    <task id="LOCAL-00123" summary="日常更新">
+      <created>1633584224583</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1633584224583</updated>
+    </task>
+    <task id="LOCAL-00124" summary="日常更新">
+      <created>1633584274863</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1633584274863</updated>
+    </task>
+    <task id="LOCAL-00125" summary="日常更新">
+      <created>1633659937365</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1633659937365</updated>
+    </task>
+    <task id="LOCAL-00126" summary="日常更新">
+      <created>1633660040773</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1633660040773</updated>
+    </task>
+    <task id="LOCAL-00127" summary="日常更新">
+      <created>1633660104991</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1633660104991</updated>
+    </task>
+    <task id="LOCAL-00128" summary="日常更新">
+      <created>1634646898702</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1634646898703</updated>
+    </task>
+    <task id="LOCAL-00129" summary="日常更新">
+      <created>1634897029455</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1634897029456</updated>
+    </task>
+    <task id="LOCAL-00130" summary="日常更新">
+      <created>1638012789956</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1638012789958</updated>
+    </task>
+    <task id="LOCAL-00131" summary="日常更新">
+      <created>1638014516102</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1638014516102</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190124000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32904148" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.26626506" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.39055794" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32904148" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="test" />
+    <MESSAGE value="init" />
+    <MESSAGE value="添加背景音乐" />
+    <MESSAGE value="改个标题" />
+    <MESSAGE value="随机播放" />
+    <MESSAGE value="循环播放" />
+    <MESSAGE value="情感分析" />
+    <MESSAGE value="日常更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/chat-bot-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/其实生活没那么苦/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sword-god.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-09/26.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/不止大雾，不止清晨/i.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/child_school.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/幼小衔接.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1020">
+            <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/不止大雾，不止清晨/g.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/不止大雾，不止清晨/h.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/别拿以前的事衡量现在的人/a.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/good-luck/aj.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-09/27.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="18" selection-start-line="8" selection-end-line="8" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/别拿以前的事衡量现在的人/b.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/别拿以前的事衡量现在的人/d.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/别拿以前的事衡量现在的人/f.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/别拿以前的事衡量现在的人/h.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/c.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/一晃两三年-匆匆又秋天/f.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/一晃两三年-匆匆又秋天/d.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-10/22.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/Jane Eyre After Reading.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/e.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/学历案与深度学习notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="220" lean-forward="true" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/f.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/g.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/h.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/i.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/a.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/以前什么都无所谓/b.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food/调料.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/nlp/w2v-bert.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/nlp/sentimet-analysis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/nlp/整体方案计划.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nlp/sentiment/show-bert-cnn-bilstm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-08/10.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/25.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/24.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/23.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/22.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/20.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-06/21.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-12/10.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/过了今天就是明天/b.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/过了今天就是明天/d.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-08/22.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/2021-08/27.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/【交付文件@龙猫数据】实体关系-20211214/json/实体关系1/05233.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sidebar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/nlp/sentiment_ppt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="141">
+            <caret line="39" column="87" lean-forward="true" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
