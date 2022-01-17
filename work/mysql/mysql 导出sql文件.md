@@ -1,0 +1,1 @@
+mysqldump -uroot -p [dbname] [tablename可选]> nlu.sql
