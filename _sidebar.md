@@ -14,6 +14,8 @@
     - java
         - [subList的坑](work/java/subList的坑.md)
         - [jstack使用记录](work/java/jstack使用记录.md)
+    - 菜谱
+        - [菜谱](food/food.md)
 - others
    - [幼小衔接](paper/幼小衔接.md)
    - [幼小衔接参考资料](paper/child_school.md)
