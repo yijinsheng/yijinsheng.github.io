@@ -10,7 +10,7 @@
 |11004 | 短信发送故障 |
 
 ## context_path: 
-/performance/plat
+/performance/platfr
 ## 短信验证码获取接口获取
 ### url:
 /public/sms/send
@@ -19,7 +19,7 @@ post
 ### header:
 |  参数  |  描述 |
 |  ----  | ----  |
-| Content-Length:  | application/json号 |
+| Content-Length:  | application/json |
 
 ### body:
 |  参数  |  描述 |
@@ -40,7 +40,7 @@ post
 ### header:
 |  参数  |  描述 |
 |  ----  | ----  |
-| Content-Length:  | application/json号 |
+| Content-Length:  | application/json |
 
 ### body:
 |  参数  |  描述 |
@@ -52,4 +52,4 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  | 返回数据 |
+| data  |{token:登录认证token，userCode:用户编码} |
