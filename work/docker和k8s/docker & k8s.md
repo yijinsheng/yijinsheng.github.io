@@ -1,6 +1,7 @@
 # Docker
 ## [docker 安装](https://docs.docker.com/engine/install/centos/)
 1. centos下安装docker
+
 ```
 1、移除以前docker相关包
 sudo yum remove docker \

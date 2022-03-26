@@ -16,11 +16,9 @@
         - [jstack使用记录](work/java/jstack使用记录.md)
     - 菜谱
         - [菜谱](food/food.md)
+    - [docker](work/docker和k8s/docker%20&%20k8s.md)
 - others
-   - [幼小衔接](paper/幼小衔接.md)
-   - [幼小衔接参考资料](paper/child_school.md)
-   - [Jane Eyre After Reading](paper/Jane%20Eyre%20After%20Reading.md)
-   - [学历案与深度学习notes](paper/学历案与深度学习notes.md)
+   - [performance](performance/interface.md)
     
     
 
