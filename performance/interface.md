@@ -198,7 +198,7 @@ post
 | goalC| 第三季度目标|
 | goalD| 第四季度目标|
 | sortIndex| 用作排序显示|
-## 请求例子
+### 请求例子
 ```
 {
   "performancePlanDetails": [
@@ -287,7 +287,7 @@ post
 | goalC| 第三季度目标|
 | goalD| 第四季度目标|
 | sortIndex| 用作排序显示|
-## 请求例子
+### 请求例子
 ```
 {
   "performancePlanDetails": [
