@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c537b3c0-c08d-443f-a64d-54407bffd1e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/performance/interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/performance/interface.md" afterDir="false" />
-    </list>
+    <list default="true" id="c537b3c0-c08d-443f-a64d-54407bffd1e5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +160,7 @@
       <workItem from="1648266486669" duration="13000" />
       <workItem from="1648266719258" duration="5000" />
       <workItem from="1648347819331" duration="219000" />
+      <workItem from="1648348563690" duration="4000" />
     </task>
     <task id="LOCAL-00086" summary="日常更新">
       <created>1626074409813</created>

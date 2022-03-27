@@ -413,12 +413,12 @@ post
 | Content-Length:  | application/json |
 | userCode:  | 手机号|
 | token | 登录接口返回的token |
-## body
+### body
 |  参数  |  描述 |
 |  ----  | ----  |
 | planId  | 绩效计划Id|
 
-## 返回
+### 返回
 
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -437,7 +437,7 @@ post
 | token | 登录接口返回的token |
 
 
-## 返回
+### 返回
 
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -456,15 +456,95 @@ post
 | Content-Length:  | application/json |
 | userCode:  | 手机号|
 | token | 登录接口返回的token |
-## body
+### body
 |  参数  |  描述 |
 |  ----  | ----  |
 | planId  | 绩效计划Id|
 | agreement  | 审批意见1-同意，2-驳回|
 | memo  |审批意见|
-## 返回
+### 返回
 
 |  参数  |  描述 |
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
+
+
+## 持续绩效添加
+### url:
+/performancePlanCt/insert
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+| performanceCts  | List<PerformanceCt>|
+### PerformanceCt
+|  参数  |  描述 |
+|  ----  | ----  |
+| createTime  |yyyyMMdd|
+| achievement  |成就活动名称|
+| description  |详细描述|
+| effect  |成效|
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+
+
+## 持续绩效获取员工列表
+### url:
+/performancePlanCt/insert
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |{"members":List<User>,"leaders":List<User>}|
+团队总监能看到所有的团队成员放在members里面
+部门总监能看到所有团队成员(members)和所有团队总监（leaders）
+副总能看到所有的团队总监（leaders）
+
+
+## 查看员工持续绩效
+### url:
+/performancePlanCt/getUserInfo
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+| userId | userId (持续绩效获取员工列表f返回的id)|
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List<PerformanceCt>|
+
+
+
+
