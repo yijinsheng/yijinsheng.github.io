@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c537b3c0-c08d-443f-a64d-54407bffd1e5" name="Default Changelist" comment="日常更新">
-      <change afterPath="$PROJECT_DIR$/life/2022-03/25.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/docker和k8s/docker &amp; k8s.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/docker和k8s/docker &amp; k8s.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/shell/shell命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/work/shell/shell命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance/interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/performance/interface.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +31,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="23um9dKVNtZciT0TLyGNRogVJ9w" />
   <component name="ProjectViewState">
@@ -166,13 +158,10 @@
       <workItem from="1644891951428" duration="122000" />
       <workItem from="1648195577796" duration="270000" />
       <workItem from="1648201157867" duration="860000" />
-    </task>
-    <task id="LOCAL-00084" summary="日常更新">
-      <created>1625830987152</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1625830987152</updated>
+      <workItem from="1648261009125" duration="275000" />
+      <workItem from="1648261604755" duration="293000" />
+      <workItem from="1648266486669" duration="13000" />
+      <workItem from="1648266719258" duration="5000" />
     </task>
     <task id="LOCAL-00085" summary="日常更新">
       <created>1625831732076</created>
@@ -510,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642892926047</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="日常更新">
+      <created>1648261703098</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1648261703099</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
