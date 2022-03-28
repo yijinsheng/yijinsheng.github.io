@@ -8,6 +8,9 @@
 | 11000  | 手机号不存在 |
 | 11003  | 验证码未失效 |
 |11004 | 短信发送故障 |
+|11005 | 绩效计划尚未审核完成 |
+|11006 | 已经完成绩效自评 |
+
 
 ## context_path: 
 /performance/plat
@@ -386,7 +389,7 @@ post
 |  参数  |  描述 |
 |  ----  | ----  |
 | id  | 计划绩效id（planId）|
-| state  | 流程状态，0-保存 ，1-团队总监审核中，2-部门总监审核中，3-副总审核中，4，完成状态，状态为0时候agreementTeam=2为团队总监驳回，agreementDepart 为部门总监驳回，agreementVice=2为副总驳回|
+| state  | 流程状态，0-保存 ，1-团队总监审核中，2-部门总监审核中，3-副总审核中，4，完成状态，状态为0时候agreementTeam=2为团队总监驳回，agreementDepart=2 为部门总监驳回，agreementVice=2为副总驳回|
 | year  | 年份|
 | userId  | userId|
 | roleId  | roleId|
@@ -546,5 +549,248 @@ post
 | data  |List<PerformanceCt>|
 
 
+## 获取菜单接口
+### url:
+/public/menu/list
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### 返回
 
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List<Menu>|
+
+#### menu
+|  参数  |  描述 |
+|  ----  | ----  |
+| menuLevel  | 1：一级菜单 2:二级菜单|
+| menuName  |菜单名称 |
+| pMenuId  | 父菜单id|
+
+| uri  | 资源路径|
+### 返回结果例子
+```
+{
+    "code": 0,
+    "msg": "system.success",
+    "data": [
+        {
+            "id": 1,
+            "menuLevel": 1,
+            "menuName": "首页",
+            "uri": "/DASHBOARD",
+            "cate": "DASHBOARD",
+            "subMenuList": []
+        },
+        {
+            "id": 2,
+            "menuLevel": 1,
+            "menuName": "绩效计划",
+            "cate": "PL",
+            "subMenuList": [
+                {
+                    "id": 7,
+                    "menuLevel": 2,
+                    "menuName": "计划设定",
+                    "pMenuId": 2,
+                    "uri": "/PL-SET"
+                },
+                {
+                    "id": 8,
+                    "menuLevel": 2,
+                    "menuName": "计划调整",
+                    "pMenuId": 2,
+                    "uri": "/PL-ADJUST"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "menuLevel": 1,
+            "menuName": "持续绩效",
+            "cate": "PE",
+            "subMenuList": [
+                {
+                    "id": 9,
+                    "menuLevel": 2,
+                    "menuName": "持续绩效添加",
+                    "pMenuId": 3,
+                    "uri": "/PE-ADD"
+                },
+                {
+                    "id": 10,
+                    "menuLevel": 2,
+                    "menuName": "下属绩效成就",
+                    "pMenuId": 3,
+                    "uri": "/PE-SUB"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "menuLevel": 1,
+            "menuName": "流程审批",
+            "cate": "FL",
+            "subMenuList": [
+                {
+                    "id": 11,
+                    "menuLevel": 2,
+                    "menuName": "目标设定审批",
+                    "pMenuId": 4,
+                    "uri": "/FL-SET"
+                },
+                {
+                    "id": 12,
+                    "menuLevel": 2,
+                    "menuName": "过程修订审批",
+                    "pMenuId": 4,
+                    "uri": "/FL-EDIT"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "menuLevel": 1,
+            "menuName": "绩效考核",
+            "cate": "EX",
+            "subMenuList": [
+                {
+                    "id": 13,
+                    "menuLevel": 2,
+                    "menuName": "员工自评",
+                    "pMenuId": 5,
+                    "uri": "/EX-SELF"
+                },
+                {
+                    "id": 14,
+                    "menuLevel": 2,
+                    "menuName": "考核评分",
+                    "pMenuId": 5,
+                    "uri": "/EX-RATE"
+                },
+                {
+                    "id": 15,
+                    "menuLevel": 2,
+                    "menuName": "等级评定",
+                    "pMenuId": 5,
+                    "uri": "/EX-LEVEL"
+                },
+                {
+                    "id": 16,
+                    "menuLevel": 2,
+                    "menuName": "考核反馈",
+                    "pMenuId": 5,
+                    "uri": "/EX-FEEDBACK"
+                },
+                {
+                    "id": 17,
+                    "menuLevel": 2,
+                    "menuName": "角色管理",
+                    "pMenuId": 5,
+                    "uri": "/AD-ROLE"
+                },
+                {
+                    "id": 18,
+                    "menuLevel": 2,
+                    "menuName": "用户管理",
+                    "pMenuId": 5,
+                    "uri": "/AD-USER"
+                },
+                {
+                    "id": 19,
+                    "menuLevel": 2,
+                    "menuName": "部门管理",
+                    "pMenuId": 5,
+                    "uri": "/AD-DEP"
+                },
+                {
+                    "id": 20,
+                    "menuLevel": 2,
+                    "menuName": "综合评级",
+                    "pMenuId": 5,
+                    "uri": "/AD-RATE"
+                }
+            ]
+        }
+    ]
+}
+````
+## 获取用户列表
+### url:
+/user/list
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |必填｜
+|  ----  | ----  | ----  |
+| mobile  |手机号|否｜
+| realName  |姓名|否｜
+| teamName  |团队名，模糊查询|否｜
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List<User>|
+
+
+## 修改用户信息
+### url:
+/user/edit
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+| id| 用户id，必须填|
+| mobile| 手机号|
+| roleId| 角色编号|
+|realName|姓名|
+|departId|部门Id|
+|teamId|团队id|
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  ||
+
+
+## 删除用户
+### url:
+/user/delete
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+| mobile| 手机号|
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  ||
 
