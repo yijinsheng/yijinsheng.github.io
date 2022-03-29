@@ -877,7 +877,9 @@ PerformanceDetailScoreVo
 ### body
 |  参数  |  描述 |
 |  scoreVo  | List<PerformanceDetailScoreVo>  |
-PerformanceDetailScoreVo
+
+#### PerformanceDetailScoreVo
+
   参数  |  描述 |
 |  ----  | ----  |
 | planId  | 绩效计划id|
@@ -925,9 +927,13 @@ PerformanceDetailScoreVo
 | code  | 返回码|
 | message  | 返回消息 |
 | data  |{"members":List<PerformanceScore>,"leaders":List<PerformanceScore>}|
+
+```
 团队总监查看只能有members字段
 部门总监和副总能查到members 和leaders字段
-PerformanceScore
+```
+
+#### PerformanceScore
 
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -992,7 +998,7 @@ PerformanceScore
 |  planId  | 下属绩效计划Id（[查看员工当前季度绩效的打分详情]接口中返回）  |
 |  scoreVo  | List<PerformanceScoreDetail>  |
 
-PerformanceScoreDetail
+#### PerformanceScoreDetail
 
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -1065,7 +1071,7 @@ PerformanceScore
 | message  | 返回消息 |
 |  data  | List<PDepartmentScore>  |
 
-PDepartmentScore
+#### PDepartmentScore
 
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -1144,7 +1150,9 @@ PDepartmentScore
 |  参数  |  描述 |
 |  ----  | ----  |
 |  scores  |  List<PerformanceScore>  |
+
 PerformanceScore
+
 |  参数  |  描述 |
 |  ----  | ----  |
 |  id  | 下属用户id（[getUserRankList]接口中返回）  |
