@@ -190,7 +190,7 @@ post
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-| performancePlanDetails| List<PerformancePlanDetail>|
+| performancePlanDetails| List\<PerformancePlanDetail\>|
 #### PerformancePlanDetail
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -367,7 +367,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<PerformancePlanDetail>|
+| data  |List\<PerformancePlanDetail\>|
 
 ### 查看自己绩效状态
 ### url:
@@ -429,7 +429,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<PerformancePlanDetail>|
+| data  |List\<PerformancePlanDetail\>|
 
 ## 负责人查看下属绩效计划列表
 ### url:
@@ -448,7 +448,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |{"members":List<PerformancePlan>,"teamLeaders":List<PerformancePlan>}|
+| data  |{"members":List\<PerformancePlan\>,"teamLeaders":List\<PerformancePlan\>}|
 
 如果当前登录角色是团队总监，返回结果只有members，如果是部门总监则可以看到teamleaders和members，如果是副总，只会返回teamLeaders
 
@@ -488,7 +488,7 @@ post
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-| performanceCts  | List<PerformanceCt>|
+| performanceCts  | List\<PerformanceCt\>|
 ### PerformanceCt
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -520,7 +520,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |{"members":List<User>,"leaders":List<User>}|
+| data  |{"members":List\<User\>,"leaders":List\<User\>}|
 团队总监能看到所有的团队成员放在members里面
 部门总监能看到所有团队成员(members)和所有团队总监（leaders）
 副总能看到所有的团队总监（leaders）
@@ -548,7 +548,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<PerformanceCt>|
+| data  |List\<PerformanceCt\>|
 
 
 ## 获取菜单接口
@@ -566,7 +566,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<Menu>|
+| data  |List\<Menu\>|
 
 #### menu
 |  参数  |  描述 |
@@ -744,7 +744,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<User>|
+| data  |List\<User\>|
 
 
 ## 修改用户信息
@@ -841,7 +841,7 @@ post
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<PerformanceDetailScoreVo>|
+| data  |List\<PerformanceDetailScoreVo\>|
 
 PerformanceDetailScoreVo
 
@@ -876,7 +876,7 @@ PerformanceDetailScoreVo
 | token | 登录接口返回的token |
 ### body
 |  参数  |  描述 |
-|  scoreVo  | List<PerformanceDetailScoreVo>  |
+|  scoreVo  | List\<PerformanceDetailScoreVo\>  |
 
 #### PerformanceDetailScoreVo
 
@@ -926,7 +926,7 @@ PerformanceDetailScoreVo
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |{"members":List<PerformanceScore>,"leaders":List<PerformanceScore>}|
+| data  |{"members":List\<PerformanceScore\>,"leaders":List\<PerformanceScore\>}|
 
 
 ```
@@ -982,7 +982,7 @@ PerformanceDetailScoreVo
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List<PerformanceDetailScoreVo> |
+| data  |List\<PerformanceDetailScoreVo\> |
 
 ## 团队总监，部门总监给下属绩效评分
 ### url:
@@ -999,7 +999,7 @@ PerformanceDetailScoreVo
 |  staffId  | 下属用户id（[查看员工当前季度绩效的打分详情]接口中返回）  |
 |  scoreId  | 绩效考核Id （[查看员工当前季度绩效的打分详情]接口中返回） |
 |  planId  | 下属绩效计划Id（[查看员工当前季度绩效的打分详情]接口中返回）  |
-|  scoreVo  | List<PerformanceScoreDetail>  |
+|  scoreVo  | List\<PerformanceScoreDetail\>  |
 
 #### PerformanceScoreDetail
 
@@ -1032,7 +1032,7 @@ PerformanceDetailScoreVo
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-|  score  |  List<PerformanceScore> performanceScores  |
+|  score  |  List\<PerformanceScore\> performanceScores  |
 
 PerformanceScore
 
@@ -1072,7 +1072,7 @@ PerformanceScore
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-|  data  | List<PDepartmentScore>  |
+|  data  | List\<PDepartmentScore\>  |
 
 #### PDepartmentScore
 
@@ -1136,7 +1136,7 @@ PerformanceScore
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  | List<PerformanceScore> |
+| data  | List\<PerformanceScore\> |
 
 
 ## 部门总监给员工评级
@@ -1152,7 +1152,7 @@ PerformanceScore
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-|  scores  |  List<PerformanceScore>  |
+|  scores  |  List\<PerformanceScore\>  |
 
 PerformanceScore
 
@@ -1160,6 +1160,109 @@ PerformanceScore
 |  ----  | ----  |
 |  id  | 下属用户id（[getUserRankList]接口中返回）  |
 |  performanceRank  | 评级 A,B,C,D |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | |
+
+
+## 员工查看自己的绩效评分
+### url:
+/performanceScore/viewScoreRank
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  scores  |  |
+
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |PerformanceScore |
+
+#### PerformanceScore
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| id  | 绩效评定Id(后面打分的接口带回去)|
+| userId  | 员工Id |
+| realName  | 员工姓名 |
+| roleId  | 员工角色Id |
+| position  | 员工岗位 |
+| teamId  | 员工团队id |
+| teamName  | 员工团队名称 |
+| departName  | 员工部门名称 |
+| departId  | 员工部门id|
+| year  | 绩效年份|
+| season  | 绩效季度|
+| selfScore  | 员工绩效自评分|
+| teamLeaderScore  | 团队总监绩效打分|
+| departLeaderScore  | 部门总监绩效打分|
+| vicePresidentScore  | 副总绩效打分|
+| performanceRank  | 员工绩效评级|
+| feedback  | 员工绩效反馈|
+| teamLeaderFeedback  | 团队总监对员工绩效反馈|
+
+
+
+## 员工查看自己的绩效评分
+### url:
+/performanceScore/viewStaffScoreRank
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  scores  |  |
+
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List\<PerformanceScore\> |
+
+
+## 员工或者团队总监对绩效考核进行反馈
+### url:
+/performanceScore/feedback
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  scoreId  | viewStaffScoreRank 接口返回的id字段 |
+|  feedback  | 反馈详情 |
+
+
 
 ### 返回
 
