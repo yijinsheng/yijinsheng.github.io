@@ -431,7 +431,7 @@ post
 | message  | 返回消息 |
 | data  |List<PerformancePlanDetail>|
 
-## 负责任查看下属绩效计划列表
+## 负责人查看下属绩效计划列表
 ### url:
 /performancePlan/queryMemberPlan
 ### header:
@@ -928,10 +928,13 @@ PerformanceDetailScoreVo
 | message  | 返回消息 |
 | data  |{"members":List<PerformanceScore>,"leaders":List<PerformanceScore>}|
 
+
 ```
 团队总监查看只能有members字段
 部门总监和副总能查到members 和leaders字段
+
 ```
+
 
 #### PerformanceScore
 
