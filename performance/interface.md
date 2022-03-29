@@ -10,6 +10,7 @@
 |11004 | 短信发送故障 |
 |11005 | 绩效计划尚未审核完成 |
 |11006 | 已经完成绩效自评 |
+|11007 | 已经完成对该员工绩效评定 |
 
 
 ## context_path: 
@@ -140,6 +141,7 @@ post
 |realName|姓名|
 |departId|部门Id|
 |teamId|团队id|
+|email|邮箱地址|
 ### 返回
 |  参数  |  描述 |
 |  ----  | ----  |
@@ -763,6 +765,7 @@ post
 |realName|姓名|
 |departId|部门Id|
 |teamId|团队id|
+|email|邮箱地址|
 ### 返回
 
 |  参数  |  描述 |
@@ -793,4 +796,380 @@ post
 | code  | 返回码|
 | message  | 返回消息 |
 | data  ||
+
+
+## 根据id查询用户信息（部门领导，团队领导查询考核页面详情的时候应该会用到）
+### url:
+/user/queryUserById
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+| userId| 用户Id|
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |User|
+
+
+## 员工查看自己绩效考核的页面（绩效自评）
+### url:
+/performanceScore/view
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List<PerformanceDetailScoreVo>|
+
+PerformanceDetailScoreVo
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| planId  | 绩效计划id|
+| year  | 年份 |
+| season  |季度（A，B，C，D）|
+| kpi  |kpi|
+| weight  |权重|
+| indicatorDescription  |指标说明|
+| yearGoal  |年度目标|
+| goalA  |一季度目标|
+| goalB  |二季度目标|
+| goalC  |三季度目标|
+| goalD  |四季度目标|
+| scoreId  |绩效考核Id|
+| sortIndex  |排序下标|
+| selfScore  |绩效自评分|
+| teamLeaderScore  |团队总监评分|
+| departLeaderScore  |部门领导评分|
+
+
+## 员工绩效自评
+### url:
+/performanceScore/selfScore
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  scoreVo  | List<PerformanceDetailScoreVo>  |
+PerformanceDetailScoreVo
+  参数  |  描述 |
+|  ----  | ----  |
+| planId  | 绩效计划id|
+| year  | 年份 |
+| season  |季度（A，B，C，D）|
+| kpi  |kpi|
+| weight  |权重|
+| indicatorDescription  |指标说明|
+| yearGoal  |年度目标|
+| goalA  |一季度目标|
+| goalB  |二季度目标|
+| goalC  |三季度目标|
+| goalD  |四季度目标|
+| scoreId  |绩效考核Id|
+| sortIndex  |排序下标|
+| selfScore  |绩效自评分|
+| teamLeaderScore  |团队总监评分|
+| departLeaderScore  |部门领导评分|
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  ||
+
+## 查看下属绩效考核列表
+### url:
+/performanceScore/queryStaffScoreList
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |{"members":List<PerformanceScore>,"leaders":List<PerformanceScore>}|
+团队总监查看只能有members字段
+部门总监和副总能查到members 和leaders字段
+PerformanceScore
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| id  | 绩效评定Id(后面打分的接口带回去)|
+| userId  | 员工Id |
+| realName  | 员工姓名 |
+| roleId  | 员工角色Id |
+| position  | 员工岗位 |
+| teamId  | 员工团队id |
+| teamName  | 员工团队名称 |
+| departName  | 员工部门名称 |
+| departId  | 员工部门id|
+| year  | 绩效年份|
+| season  | 绩效季度|
+| selfScore  | 员工绩效自评分|
+| teamLeaderScore  | 团队总监绩效打分|
+| departLeaderScore  | 部门总监绩效打分|
+| vicePresidentScore  | 副总绩效打分|
+| performanceRank  | 员工绩效评级|
+| feedback  | 员工绩效反馈|
+| teamLeaderFeedback  | 团队总监对员工绩效反馈|
+
+
+
+## 查看员工当前季度绩效的打分详情
+### url:
+/performanceScore/queryStaffScoreDetail
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  userId  | 下属用户id（[查看下属绩效考核列表]接口中返回）  |
+|  scoreId  | 绩效考核Id （[查看下属绩效考核列表]接口中返回） |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  |List<PerformanceDetailScoreVo> |
+
+## 团队总监，部门总监给下属绩效评分
+### url:
+/performanceScore/scoreToStaff
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  staffId  | 下属用户id（[查看员工当前季度绩效的打分详情]接口中返回）  |
+|  scoreId  | 绩效考核Id （[查看员工当前季度绩效的打分详情]接口中返回） |
+|  planId  | 下属绩效计划Id（[查看员工当前季度绩效的打分详情]接口中返回）  |
+|  scoreVo  | List<PerformanceScoreDetail>  |
+
+PerformanceScoreDetail
+
+|  参数  |  描述 |
+|  ----  | ----  |
+|  selfScore  | 绩效自评分|
+|  teamLeaderScore  | 团队总监打分|
+|  departLeaderScore  | 部门总监打分|
+|  sortIndex  | 下标|
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | |
+
+
+## 部门副总给员工总打分
+### url:
+/performanceScore/sumScoreToStaff
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  score  |  List<PerformanceScore> performanceScores  |
+
+PerformanceScore
+
+|  参数  |  描述 |
+|  ----  | ----  |
+|  id  | 下属用户id（[queryStaffScoreList]接口中返回）  |
+|  vicePresidentScore  | 部门副总打总分 |
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | |
+
+
+## 综合管理部获取部门评级列表
+### url:
+/performanceScore/departmentScoreList
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+|  data  | List<PDepartmentScore>  |
+
+PDepartmentScore
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| year  | 年份|
+| season  | 第几季度 |
+|  departId  | departId  |
+|  departmentName  | 部门名称 |
+|  performanceRank  | 部门评级 |
+
+
+
+
+## 综合管理部给部门打分
+### url:
+/performanceScore/scoreToDepartment
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  departId  |  部门Id |
+|  departmentName  |  部门name |
+|  performanceRank  |  部门评级（A，B，C，D） |
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | |
+
+
+
+## 综合管理部给部门打分
+### url:
+/performanceScore/getUserRankList
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | List<PerformanceScore> |
+
+
+## 部门总监给员工评级
+### url:
+/performanceScore/rankToStaff
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  scores  |  List<PerformanceScore>  |
+PerformanceScore
+|  参数  |  描述 |
+|  ----  | ----  |
+|  id  | 下属用户id（[getUserRankList]接口中返回）  |
+|  performanceRank  | 评级 A,B,C,D |
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
