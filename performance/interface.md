@@ -881,7 +881,7 @@ PerformanceDetailScoreVo
 
 #### PerformanceDetailScoreVo
 
-  参数  |  描述 |
+| 参数  |  描述 |
 |  ----  | ----  |
 | planId  | 绩效计划id|
 | year  | 年份 |
