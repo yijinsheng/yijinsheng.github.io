@@ -1116,7 +1116,7 @@ PerformanceScore
 
 
 
-## 综合管理部给部门打分
+## 综合管理部查看员工绩效考核列表（该接口废弃，使用queryStaffScoreList接口）
 ### url:
 /performanceScore/getUserRankList
 ### header:
@@ -1161,7 +1161,7 @@ PerformanceScore
 
 |  参数  |  描述 |
 |  ----  | ----  |
-|  id  | 下属用户id（[getUserRankList]接口中返回）  |
+|  id  | 下属用户id（[queryStaffScoreList]接口中返回 userId）  |
 |  performanceRank  | 评级 A,B,C,D |
 
 ### 返回
@@ -1222,7 +1222,7 @@ PerformanceScore
 
 
 
-## 员工查看自己的绩效评分
+## 团队总监和部门总监，副总查看员工评级(该接口废弃 使用接口queryStaffScoreList)
 ### url:
 /performanceScore/viewStaffScoreRank
 ### header:
