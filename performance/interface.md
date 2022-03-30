@@ -402,6 +402,7 @@ post
 | memoTeam  | 团队领导审批备注|
 | memoDepart  | 部门领导审批备注|
 | memoVice  | 副总审批备注|
+| isApprove  | 审批状态 0-未提交 1-未审批 2-团队总监已审批 3-部门总监已经审批 4-副总已经审批|
 | agreementTeam  | 团队总监审批意见 1-通过 2-驳回|
 | agreementDepart  | 部门总监审批意见 1-通过 2-驳回|
 | agreementVice  |副总审批意见 1-通过 2-驳回|
@@ -452,7 +453,7 @@ post
 
 如果当前登录角色是团队总监，返回结果只有members，如果是部门总监则可以看到teamleaders和members，如果是副总，只会返回teamLeaders
 
-## 负责人查看下属绩效计划详情
+## 负责人审批下属绩效计划详情
 ### url:
 /performancePlan/approve
 ### header:
@@ -1136,7 +1137,9 @@ PerformanceScore
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  | List\<PerformanceScore\> |
+| data  |{"members": List\<PerformanceScore\> ,"leaders": List\<PerformanceScore\> }|
+
+团队总监只能看到members字段，部门总监和副总可以看到leaders字段
 
 
 ## 部门总监给员工评级
@@ -1183,7 +1186,6 @@ PerformanceScore
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-|  scores  |  |
 
 
 
@@ -1233,7 +1235,6 @@ PerformanceScore
 ### body
 |  参数  |  描述 |
 |  ----  | ----  |
-|  scores  |  |
 
 
 
@@ -1243,7 +1244,9 @@ PerformanceScore
 |  ----  | ----  |
 | code  | 返回码|
 | message  | 返回消息 |
-| data  |List\<PerformanceScore\> |
+| data  |“members”:List\<PerformanceScore\>,"leaders":List\<PerformanceScore\> |
+
+团队总监只能看到members字段，部门总监和副总可以看到leaders字段
 
 
 ## 员工或者团队总监对绩效考核进行反馈
