@@ -1276,6 +1276,41 @@ PerformanceScore
 | data  | |
 
 
+## 查看员工绩效评分状态
+### url:
+/performanceScore/info
+### header:
+|  参数  |  描述 |
+|  ----  | ----  |
+| Content-Length:  | application/json |
+| userCode:  | 手机号|
+| token | 登录接口返回的token |
+
+### body
+|  参数  |  描述 |
+|  ----  | ----  |
+|  userId  | 用户id |
+
+
+
+### 返回
+
+|  参数  |  描述 |
+|  ----  | ----  |
+| code  | 返回码|
+| message  | 返回消息 |
+| data  | PerformanceScore|
+
+```
+返回 state  0 表示 绩效已经自评  1 表示团队总监已经评分  2 表示部门总监已经评分  3 表示副总已经评分
+
+所以可以判断 返回为空表示绩效没有自评
+返回不为空且  state >=0 表示绩效已经自评
+返回不为空且  state >=1 表示团队总监已经评分
+返回不为空且  state >=2 表示部门总监已经评分
+返回不为空且  state >=3 表示副总已经评分
+    
+```
 
 
 
