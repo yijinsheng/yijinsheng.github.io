@@ -13,7 +13,8 @@
 - [知识图谱](work/nlp/知识图谱.md)
 - [bert 阅读理解](work/nlp/阅读理解.md)
 - [PromptCLUE](work/nlp/PromptCLUE.md)
-
+- [人机对话1](work/nlp/人机对话.md)
+- [人机对话2](work/chatbot/人机交互之元宇宙篇.md)
     
  
     
