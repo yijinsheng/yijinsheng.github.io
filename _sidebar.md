@@ -1,4 +1,4 @@
-- [文本分词](work/nlp/原子能力/文本分词.md)
+- [文本分词](work/nlp/文本分词.md)
 - 文本特征提取
   - [n-gram](work/nlp/n-gram.md)
   - [从word2vec到bert](work/nlp/w2v-bert.md)
@@ -12,7 +12,8 @@
 - [文本纠错](work/nlp/文本纠错.md)
 - [知识图谱](work/nlp/知识图谱.md)
 - [bert 阅读理解](work/nlp/阅读理解.md)
-- [PromptCLUE]()
+- [PromptCLUE](work/nlp/PromptCLUE.md)
+
     
  
     
