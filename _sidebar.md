@@ -1,4 +1,4 @@
-- [文本分词](work/nlp/原子能力/文本分词)
+- [文本分词](work/nlp/原子能力/文本分词.md)
 - 文本特征提取
   - [n-gram](work/nlp/n-gram.md)
   - [从word2vec到bert](work/nlp/w2v-bert.md)
